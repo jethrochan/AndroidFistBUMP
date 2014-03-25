@@ -1,4 +1,4 @@
-Android Application Hacktech Hackathon
+Android Application FistBUMP 
 ========
 + [ ] Core = Group/Person
 + [ ] Group is created from Bump or secret code
