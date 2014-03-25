@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/fist"
+    android:weightSum="1">
+    
+        <ImageView
+            android:id="@+id/my_prof"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".05"
+            android:src="@drawable/my_prof" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/full_name"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="33dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/rounded_edittext"
+        android:layout_weight=".15"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="33dp"
+        android:inputType="textPersonName" />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginTop="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_number"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="33dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/rounded_edittext"
+        android:layout_weight=".15" 
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="33dp"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_marginTop="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/favorite_color"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="33dp"
+        
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/rounded_edittext"
+        android:layout_weight=".15" 
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="33dp"
+        android:singleLine="true" />
+    
+        <TextView
+        android:id="@+id/textView4"
+        android:layout_marginTop="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/looking_for"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="33dp"
+        
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/rounded_edittext"
+        android:layout_weight=".15" 
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="33dp"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_marginTop="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/favorite_joke"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="33dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:layout_weight=".25" 
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="33dp"
+        android:gravity="top"
+        android:lines="4"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/finished_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="33dp"
+        android:layout_marginRight="33dp"
+        android:text="@string/finished" />
+
+</LinearLayout>

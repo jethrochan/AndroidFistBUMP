@@ -1,0 +1,5 @@
+id = autoincr int
+string usr
+string pwd
+string email
+text data - contains serialized JSON of all data. yes I'm lazy
